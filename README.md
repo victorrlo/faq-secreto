@@ -30,3 +30,7 @@ Pequeno projeto da Live Secreta 1 do MapaDev Week!
     * ol - lista ordenada
 
         * li -  tag de lista que vai sempre dentro das tags <ol> ou <ul> 
+    
+    * article - ???
+
+    * pre - ???
