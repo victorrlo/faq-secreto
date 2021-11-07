@@ -3,10 +3,14 @@
 * '!'+'Space' - Emmet Abreviation para inicializar o index.html
 * Extensão Live Server: Alt+L+O para ver modificações no site!
 
-### HTML
+### HTML + CSS + Javascript
+Html = Esqueleto
+CSS = Pele
+Javascript = Músculo
 #### Tags:
 * <!--Comentário!-->
 * head - dentro do head são informações para enviar ao navegador
+OBS: "uma coisa, a tag head é só pra colocar as meta tags, favicon e outras infos relacionadas ao teu site, nesse caso seria melhor usar uma tag div"
 
     * meta - informações passadas ao navegador 
 

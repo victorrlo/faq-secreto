@@ -11,3 +11,5 @@ Usar o F12 para checar como foi feita a estrutura dessa página para emular e ad
 
 Estilizar um pouco a parte da descrição com cores diferentes, como no caso das habilidade [Sopro] 
 em vermelho etc
+
+Trocar favicon para um de ragnarok!

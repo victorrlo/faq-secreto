@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAQ Secreto</title>
+    <title>Perguntas da Kafra!</title>
 
-    <link rel="shortcut icon" href="src/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="shortcut icon" href="src/img_new/fav-icon-2.png" type="image/x-icon">
 </head>
 
 <body>
@@ -18,58 +19,129 @@
     <main>
         <section class="faq">
             <img 
-                src="src/img_new/kafra.jpg" 
+            src="src/img_new/faq-icon.png" 
+            alt="ilustração estilizada de um poring branco com fundo laranja"
+            class="faq-icon-poring">
+            <img 
+                src="src/img_new/kafra.png" 
                 alt="ilustração da kafra segurando uma prancheta e uma pena para escrever!" 
-                class="ilustracao">
+                class="kafra">
 
             <div class="conteudo">
-                <h1>FAQ</h1>
+                <header>
+                    <div class="header-perguntas">
+                        <h1 class="underlined">
+                            Perguntas da Kafra!
+                        </h1>
+                    </div>
+                    
+                </header>
 
-                <ul class="items">
-                    <li class="item">
+                <ul class="quadro-de-perguntas">
+
+                    <li class="item-do-quadro">
                         <h2 class="pergunta">
                             Qual sua arma preferida de Ragnarök Online?
                         </h2>
 
                         <p class="resposta">
-                            Minha arma preferida é definitivamente a Lança do Deus Dragão, apesar de eu ser um maior fã de espadas em geral. 
+                            Minha arma preferida é definitivamente a <b>Lança do Deus Dragão</b>, apesar de eu ser um maior fã de espadas em geral. 
                             Além dela ser uma lança poderosa, 
                             ela também tem uma habilidade que eu amo que é a habilidade de converter o meu dano em vida, 
                             ou seja, recuperar meu HP quanto mais dano eu inflingir em monstros!
-                            <div id="respostaItem">
-                                <article class="enfaseItem">
-                                    <img alt="Lança do Deus Dragão [1]" src="src/img_new/dragon-god-spear.png" alt="">
-                                </article>
+                            <div class="resposta-item">
+                                <div class="enfase-item">
+                                    <div class="imagem-item">
+                                        <img src="src/img_new/dragon-god-spear.png" alt="Lança do Deus Dragão [1]">
+                                    </div>
 
-                                <div id="descricaoItem">
-                                    <h4>Lança do Deus Dragão [1]</h4>
-                                    <pre>
-                                        Uma das Sete Armas Mágicas, possuída originalmente por Zilant.
-                                        
-                                        Atq. Mágico +280.
-                                        Força +3.
-                                        Destreza +5.
-                                        Aumenta o dano da habilidade <font color ="red">[Sopro de Gelo]</font> e <font color ="red">[Sopro de Fogo]</font> em 50%.
-                                        Converte 1% do dano causado em HP.
-                                        
-                                        <font color="blue">A cada nível de refino:</font>
-                                            Dano Físico +2%.
-                                            Velocidade de ataque +2%.
-                                            Reduz o tempo de pós-conjuração de todas as habilidades em 1%.
-                                        <font color="blue">Refino +8 ou mais:</font>
-                                            Converte 2% adicional do dano causado em HP.
-                                        <font color="blue">Refino +10 ou mais:</font>
-                                            Converte 3% adicional do dano causado em HP.
-                                        <font color="blue">Refino +12 ou mais:</font>
-                                            Reduz o tempo de conjuração fixo em 70%.
+                                    <div class="descricao-item">
+                                        <h4>Lança do Deus Dragão [1]</h4>
+                                        <pre>
+                                            Uma das Sete Armas Mágicas, possuída originalmente por Zilant.
                                             
-                                        Tipo: Lança de Uma Mão
-                                        Ataque: 360
-                                        Peso: 380
-                                        Nível da Arma: 4
-                                        Nível Necessário: 130
-                                        Classe: Evoluções de Espadachim
-                                    </pre>
+                                            Atq. Mágico +280.
+                                            Força +3.
+                                            Destreza +5.
+                                            Aumenta o dano da habilidade <font color ="red">[Sopro de Gelo]</font> e <font color ="red">[Sopro de Fogo]</font> em 50%.
+                                            Converte 1% do dano causado em HP.
+                                            
+                                            <font color="blue">A cada nível de refino:</font>
+                                                Dano Físico +2%.
+                                                Velocidade de ataque +2%.
+                                                Reduz o tempo de pós-conjuração de todas as habilidades em 1%.
+                                            <font color="blue">Refino +8 ou mais:</font>
+                                                Converte 2% adicional do dano causado em HP.
+                                            <font color="blue">Refino +10 ou mais:</font>
+                                                Converte 3% adicional do dano causado em HP.
+                                            <font color="blue">Refino +12 ou mais:</font>
+                                                Reduz o tempo de conjuração fixo em 70%.
+                                                
+                                            Tipo: Lança de Uma Mão
+                                            Ataque: 360
+                                            Peso: 380
+                                            Nível da Arma: 4
+                                            Nível Necessário: 130
+                                            Classe: Evoluções de Espadachim
+                                        </pre>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </p>
+                    </li>
+                    <li class="item-do-quadro">
+                        <h2 class="pergunta">
+                            Qual sua classe favorita em Ragnarök Online?
+                        </h2>
+
+                        <p class="resposta">
+                            Minha classe favorita sempre foi o <b>Espadachim e suas evoluções</b>!
+                            A classe com maior HP do jogo e maior defesa, além de usar espadas, escudos e lanças.
+                            São a linha de frente do combate.
+                            <div class="resposta-item">
+                                <div class="enfase-item">
+                                    <div class="imagem-item">
+                                        <img src="src/img_new/swordsman-female.gif" alt="Espadachim Feminina">
+                                        <img src="src/img_new/swordsman-male.gif" alt="Espadachim Masculino">
+                                    </div>
+
+                                    <div class="descricao-item">
+                                        <h4>Espadachim</h4>
+                                        <pre>
+                                            Espadachins podem usar as melhores armaduras de Rune-Midgard, 
+                                            que combinadas com o seu alto vigor e capacidade de se curarem rapidamente, 
+                                            os tornam a frente de ataque em qualquer tipo de combate.
+                                            São capazes de empunhar tanto lanças quanto espadas de uma ou duas mãos, 
+                                            e estão sempre prontos a defender os mais fracos e revidarem com força com 
+                                            suas incríveis habilidades de batalha.
+                                        </pre>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </p>
+                    </li>
+                    <li class="item-do-quadro">
+                        <h2 class="pergunta">
+                            Qual o monstro que você mais curtiu no jogo?
+                        </h2>
+
+                        <p class="resposta">
+                            O <b>Cavaleiro do Abismo</b>. A área de Glast Heim é uma área de castelo assombrado que sempre me
+                            interessou. Todos os monstros de lá são interessantes, mas o Cavaleiro do Abismo é o que eu mais gosto.
+                            <div class="resposta-item">
+                                <article class="enfase-item">
+                                    <div class="imagem-item">
+                                        <img src="src/img_new/abyss-knight.gif" alt="Lança do Deus Dragão [1]">
+                                    </div>
+
+                                    <div class="descricao-item">
+                                        <h4>Cavaleiro do Abismo</h4>
+                                        <pre>
+                                            
+                                        </pre>
+                                </article>
                                 </div>
                             </div>
 

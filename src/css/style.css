@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background: linear-gradient(#faf0e6, #ffbcff);
+    min-height: 100%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.faq{
+    width: 65%;
+    min-height: 450px;
+    box-shadow: 0px 25px 50px rgba(0,0,0, 0.3); 
+    background-color: #FAEBD7;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    margin: 50px;
+    position: absolute;
+}
+
+.faq .kafra{
+    position: relative;
+    bottom: 0;
+}
+
+.faq .faq-icon-poring{
+    position:relative;
+    bottom: 270px;
+    align-self: center;
+}
+
+.faq .conteudo{
+    width: 40%;
+    padding-bottom: 20px;
+}
+
+.faq .conteudo h1{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.faq .conteudo .quadro-de-perguntas{
+    list-style-type: none;
+}
+
+.faq .conteudo .quadro-de-perguntas .item-do-quadro{
+    cursor: pointer;
+    background-image: url(../img_new/pointer-closed.png);
+    background-repeat: no-repeat;
+    background-position: top 8px right 0;
+    background-size: 24px 24px;
+    border-bottom: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+.faq .conteudo .quadro-de-perguntas .item-do-quadro:last-child{
+    border-bottom: none;
+}
+
+.item-do-quadro .pergunta{
+    padding-bottom: 15px;
+    font-size: 18;
+    width: 90%;
+    transition: 0.2s ease;
+}
+
+.item-do-quadro .pergunta:hover{
+    color:#ff4b8a;
+}
+
+.item-do-quadro .resposta, .item-do-quadro .resposta-item{
+    display: none;
+    padding-bottom: 15px;
+}
+
+@media(max-width: 1140px){
+    .faq{
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .faq .conteudo{
+        width: 100%;
+    }
+
+    .faq .conteudo h1{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .faq .item-do-quadro{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .faq .item-do-quadro .pergunta{
+        font-size: 16px;
+    }
+
+    .faq .kafra{
+        width: 40%;
+        left: 0;
+        margin-bottom: 200px;
+    }
+}
+
+@media(max-width: 425px){
+    .faq{
+        height: 540px;
+    }
+}
+
+.faq .faq-icon-poring{
+    position: relative;
+    left: 600px;
+}
+
+.kafra{
+    width: 500px;
+}
+
+.enfase-item{
+    font-family: 'Signika', sans-serif;
+
+}
+
+.item-do-quadro p{
+    font-family: 'Signika', sans-serif;
+    font-weight: 100;
+    text-align: left;
+} 
+
+.enfase-item pre{
+    font-family: 'Signika', sans-serif;
+    font-weight: 100;
+    text-align: left;
+}
+
+.header-perguntas{
+    font-family: 'Signika', sans-serif;
+}
+
+h1{
+    position: relative;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: 'Signika', sans-serif;
+    font-weight: 700;
+    color: #ff794a
+}
+
+
+h2{
+    position: relative;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: 'Signika', sans-serif;
+    font-weight: 500;
+}
+
+.descricao-item h4{
+    color: #ff4b8a;
+    font-family: 'Signika', sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+
+.sections article img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 10px;
+	width: 35%;
+}
