@@ -22,8 +22,11 @@ itensPerguntasERespostas.forEach(function(item){
             
     
         // se a pergunta estiver ativa
-
+        if(estaAtiva){
             // fechar a resposta atual(remover a classe ativo)
+            item.classList.remove('ativo')
+        }
+            
     })
 })
 
