@@ -8,9 +8,6 @@ Meu segundo projeto front-end, o primeiro sendo [Souls-Twitter](https://github.c
 Site criado durante a DevWeek(usado como base):
 ![Projeto inicial](https://github.com/victorrlo/perguntas-kafra/blob/main/ignore/projeto-devweek.PNG)
 
-Como o meu site ficou:
-![Exemplo do projeto finalizado](https://github.com/victorrlo/perguntas-kafra/blob/main/ignore/perguntas-kafra-exemplo.PNG)
-
 ## Links:
 * [LIVE SECRETA 1 - HTML: A BASE DO FRONTEND - INICIANDO O PROJETO](https://www.youtube.com/watch?v=90uAdAXgYDk)
 * [LIVE SECRETA 2 - ESTILIZANDO COM CSS - COMPLETANDO A ESTRUTURA DO PROJETO](https://www.youtube.com/watch?v=M33KmAwTLLo)
