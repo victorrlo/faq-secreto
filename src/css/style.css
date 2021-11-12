@@ -15,33 +15,41 @@ main{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-image: url(/src/img_new/background-kafra3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .perguntas-da-kafra{
-    width: 40%;
+    width: 60%;
     min-height: 900px;
     box-shadow: 0px 25px 50px rgba(0,0,0, 0.3); 
-    background-color: #FAEBD7;
+    
+    /* EFEITO DE TRANSPARÊNCIA */
+    /* background-color: #FAEBD7; */
+    background-color: rgba(250, 235, 215, 0.6);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     overflow: visible;
     display: flex;
     align-items: center;
     text-align: center;
-    padding: 0px 300px;
+    
     border-radius: 30px;
 }
 
 .perguntas-da-kafra .kafra{
     position: relative;
-    left: -230px;
-    margin: 10px -150px 10px 0px;
+    left: -100px;
+    /* margin: 10px px 10px 0px; */
 
-    /*effect fade*/
+    /* EFEITO DE FADE */
     -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
       mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
 }
 
 .perguntas-da-kafra .conteudo{
-    width: 80%;
+    width: 40%;
     padding-bottom: 20px;
 }
 
@@ -49,11 +57,14 @@ main{
     font-size: 48px;
     font-family: 'Signika', sans-serif;
     font-weight: 700;
+    text-align: center;
     color: #ff794a;
+    text-align: left;
 }
 
 .perguntas-da-kafra .conteudo .quadro-de-perguntas{
     list-style-type: none;
+    margin:0;
 }
 
 .perguntas-da-kafra .conteudo .quadro-de-perguntas .item-do-quadro{
@@ -62,7 +73,7 @@ main{
     background-repeat: no-repeat;
     background-position: top 10px right 0;
     background-size: 24px 24px;
-    border-bottom: 2px solid #ff4b8a;
+    border-bottom: 2px dashed #ff4b8a;
     margin: 10px 0px;
 }
 
@@ -77,6 +88,7 @@ main{
     font-size: 24px;
     width: 90%;
     transition: 0.2s ease;
+    text-align: left;
     
 }
 
@@ -91,9 +103,20 @@ main{
     font-weight: 100;
     font-size: 16px;
     text-align: left;
-} 
+}
 
-/* ESITLOS DO ITEM ATIVO */
+.perguntas-da-kafra .conteudo .quadro-de-perguntas .item-do-quadro .enriquecimento-resposta{
+    display: none;
+}
+
+
+
+/* ESTILOS DO ITEM ESCONDIDO */
+.item-do-quadro.escondido{
+    display:none;
+}
+
+/* ESTILOS DO ITEM ATIVO */
 .item-do-quadro.ativo h2{
     font-weight: 700;
 }
@@ -104,4 +127,54 @@ main{
 
 .perguntas-da-kafra .conteudo .quadro-de-perguntas .item-do-quadro.ativo{
     background-image: url(../img_new/pointer-open.png);
+    border-bottom: none;;
 }
+
+/* SIMULAÇÃO SITE RAGNAROK ONLINE */
+.perguntas-da-kafra .conteudo .quadro-de-perguntas .item-do-quadro.ativo .enriquecimento-resposta{
+    display: block;
+    font-family: 'Signika', sans-serif;
+    border: 3px solid #ff4b8a;
+    background-color: rgba(255, 224, 234, 0.5);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    padding-top: 15px;
+}
+
+.icone-resposta{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+/*
+.perguntas-da-kafra .conteudo .quadro-de-perguntas .item-do-quadro.ativo .enriquecimento-resposta h4{
+    color:#ff4b8a;
+    text-align: left;
+    font-size: 24px;
+}
+
+.icone-resposta{
+    margin-left: auto;
+    margin-right: auto;
+    /* display: block; */
+    /*margin: -39px;
+}
+/*
+.descricao-resposta{
+    display: block;
+    border-left: 1px solid #ff4b8a;
+    text-align: left;
+    font-size: 16px;
+    color: #444444;
+    margin: 0 0 20px 0;
+} */
+
+
+/* 
+.item-do-quadro article{
+    padding: 50px;
+    text-align: left;
+} */
+
+/* ESTILOS RESPONSIVO */
