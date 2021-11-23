@@ -74,7 +74,7 @@ main{
     background-position: top 10px right 0;
     background-size: 24px 24px;
     border-bottom: 2px dashed #ff4b8a;
-    margin: 10px 0px;
+    margin: 10px 10px;
 }
 
 .perguntas-da-kafra .conteudo .quadro-de-perguntas .item-do-quadro:last-child{
@@ -103,6 +103,7 @@ main{
     font-weight: 100;
     font-size: 16px;
     text-align: left;
+    margin: 10px;
 }
 
 .perguntas-da-kafra .conteudo .quadro-de-perguntas .item-do-quadro .enriquecimento-resposta{
@@ -131,35 +132,98 @@ main{
 }
 
 /* SIMULAÇÃO SITE RAGNAROK ONLINE */
-.perguntas-da-kafra .conteudo .quadro-de-perguntas .item-do-quadro.ativo .enriquecimento-resposta{
+
+.item-do-quadro .icone-resposta{
+    margin-left: auto;
+    margin-right: auto;
     display: block;
+    margin-bottom: -27px;
+}
+
+.perguntas-da-kafra .conteudo .quadro-de-perguntas .item-do-quadro.ativo .enriquecimento-resposta{
+    display: flex;
+    /* min-width: 980px; */
+    /* definir min-height depois que os elementos da div estiverem bem organizados */
     font-family: 'Signika', sans-serif;
-    border: 3px solid #ff4b8a;
+    border: 3px dashed #ff4b8a;
     background-color: rgba(255, 224, 234, 0.5);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    padding-top: 15px;
+    /* backdrop-filter: blur(20px); */
+    /* -webkit-backdrop-filter: blur(20px); */
+    margin: 0 10px 0 0;
 }
 
-.icone-resposta{
-    margin: 0;
-    border: 0;
-    padding: 0;
+.quadro-resposta{
+    display: flex;
+    padding: 20px 0 20px 0;
+    margin: 0 35px;
 }
 
-/*
+.imagem-resposta{
+    /* TO CENTER AN IMG IN THIS DIV */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 50px 50px;
+    max-width: 71px;
+    max-height: 210px;
+    height: 210px;
+    background-color: white;
+}
+
+.descricao-resposta{
+    display: flex;
+    padding: 20px;
+}
+
+
 .perguntas-da-kafra .conteudo .quadro-de-perguntas .item-do-quadro.ativo .enriquecimento-resposta h4{
     color:#ff4b8a;
     text-align: left;
     font-size: 24px;
 }
 
-.icone-resposta{
-    margin-left: auto;
-    margin-right: auto;
-    /* display: block; */
-    /*margin: -39px;
+h4{
+    text-align: center;
 }
+
+pre{
+    color: #444444;
+    text-align: left;
+    margin: 0 0 20px 0;
+    /* manter o conteúdo dentro da div */
+    white-space: pre-wrap; 
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;   
+}
+
+article{
+    display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+}
+
+
+/* EFEITO DE AUMENTAR QUANDO PASSAR O CURSOR */
+/*
+article{
+    display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+
+}
+
+article:hover{
+    -webkit-transform: scale(1.06);
+    transform: scale(1.06);
+    transition: all 0.2s;
+}
+*/
+
 /*
 .descricao-resposta{
     display: block;
