@@ -1,8 +1,6 @@
 # Perguntas Kafra!
 Pequeno projeto das Lives Secretas do MapaDev Week!
 
-Responsividade prejudicada por falta de tempo para adaptar e falta de experiência em manipular front-end.
-Tive que deixar algumas ideias de lado por conta da falta de tempo para terminar esse projeto também.
 Meu segundo projeto front-end, o primeiro sendo [Souls-Twitter](https://github.com/victorrlo/souls-twitter).
 
 ## Links:
