@@ -12,6 +12,7 @@ Meu segundo projeto front-end, o primeiro sendo [Souls-Twitter](https://github.c
 ![Classe](https://i.imgur.com/yOQVHaB.png)
 
 ![Monstro](https://i.imgur.com/8htrPqk.png)
+
 ## Links:
 * [LIVE SECRETA 1 - HTML: A BASE DO FRONTEND - INICIANDO O PROJETO](https://www.youtube.com/watch?v=90uAdAXgYDk)
 * [LIVE SECRETA 2 - ESTILIZANDO COM CSS - COMPLETANDO A ESTRUTURA DO PROJETO](https://www.youtube.com/watch?v=M33KmAwTLLo)
