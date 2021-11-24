@@ -220,6 +220,10 @@ main{
 }
 
 .descricao{
+    color: black;
+}
+
+.descricao-monstro{
     color: white;
 }
 

@@ -3,6 +3,10 @@ Pequeno projeto das Lives Secretas do MapaDev Week!
 
 Meu segundo projeto front-end, o primeiro sendo [Souls-Twitter](https://github.com/victorrlo/souls-twitter).
 
+Meu segundo projeto de front-end. Curti bastante tentando simular o container que foi desenvolvido para o database do Brasil Ragnarök Online. Foi bem difícil, mas no fim eu consegui atingir o que eu desejava.
+
+Porém, ainda com dificuldades de atingir a responsividade. Talvez devesse pensar em desenvolvimento mobile-first, porque desenvolver pro Desktop primeiro não me pareceu a melhor forma de desenvolver o site, quebrando o site facilmente em outras resoluções.
+
 ## Preview:
 
 ![Página inicial](https://i.imgur.com/BhEiySB.png)
