@@ -58,7 +58,7 @@ main{
     font-size: 80px;
     font-family: 'Signika', sans-serif;
     font-weight: 700;
-    text-align: center;
+    text-align: left;
     color: #ff794a;
     /* text-align: left; */
 }
@@ -140,6 +140,8 @@ main{
     margin-right: auto;
     display:block;
     margin: 0 0 -28px 0;
+    position: relative;
+    z-index: 10;
 }
 
 .espacamento-enriquecimento{
@@ -152,7 +154,7 @@ main{
     /* definir min-height depois que os elementos da div estiverem bem organizados */
     font-family: 'Signika', sans-serif;
     border: 3px solid #ff4b8a;
-    background-color: rgba(255, 224, 234, 0.5);
+    background-color: rgba(255, 224, 234, 1);
     /* backdrop-filter: blur(20px); */
     /* -webkit-backdrop-filter: blur(20px); */
     /* margin: 0 10px 0 0; */
@@ -165,6 +167,26 @@ main{
     margin: 0 35px;
 }
 
+.quadro-resposta-classe{
+    padding: 200px 0 0 0;
+    background-image: url(../img/izlude-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* EFEITO DE FADE */
+    -webkit-mask-image:-webkit-gradient(linear, left bottom, left top, from(rgba(0,0,0,1)), to(rgba(0,0,0,1)));
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+.quadro-resposta-monstro{
+    position: relative;
+    z-index: 2;
+    padding: px 0 0 0;
+    background-image: url(../img/glastheim-backgorund.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+
 .imagem-resposta{
     /* TO CENTER AN IMG IN THIS DIV */
     display:flex;
@@ -172,7 +194,7 @@ main{
     align-items: center;
     border: 1px solid #ffbad2;
 
-    padding: 50px 100px;
+    padding: 50px 200px;
     max-width: 142px;
     /* height: 210px; */
     background-color: white;
@@ -183,6 +205,22 @@ main{
     flex-direction: column;
     padding: 20px;
     font-size: 15px;
+}
+
+.descricao-resposta-monstro{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 15px;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(20px);
+    overflow: visible;
+}
+
+.descricao{
+    color: white;
 }
 
 
