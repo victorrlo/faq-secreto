@@ -5,6 +5,11 @@ Meu segundo projeto front-end, o primeiro sendo [Souls-Twitter](https://github.c
 
 Meu segundo projeto de front-end. Curti bastante tentando simular o container que foi desenvolvido para o database do Brasil Ragnarök Online. Foi bem difícil, mas no fim eu consegui atingir o que eu desejava.
 
+## O container do database oficial do Ragnarök que serviu de inspiração(o database todo em si serviu de inspiração):
+![Container Inspiração](https://i.imgur.com/XFDEMVl.png)
+
+Foi um desafio que adicionei ao meu segundo projeto Front End como forma de deixar o projeto um pouco mais difícil e divertido, já que o projeto das lives secretas foi relativamente simples. Demorei muito para entender que um dos problemas que eu estava tendo para simular era adicionar o display: flex e colocar ele com flex-direction: column. Depois disso foi relativamente simples fazer o resto, já que esse detalhe que estava faltando facilitou tudo.
+
 Porém, ainda com dificuldades de atingir a responsividade. Talvez devesse pensar em desenvolvimento mobile-first, porque desenvolver pro Desktop primeiro não me pareceu a melhor forma de desenvolver o site, quebrando o mesmo facilmente em outras resoluções.
 
 ## Preview:
