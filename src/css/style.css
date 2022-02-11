@@ -13,7 +13,7 @@ main{
     justify-content: center;
     align-items: center;
     min-height: 100%;
-    background-image: url(src/img/background-kafra3.jpg);
+    background-image: url(../img/background-kafra3.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -26,7 +26,7 @@ main{
     height: 1500px;
     box-shadow: 0px 25px 50px rgba(0,0,0, 0.3); 
     
-    /* EFEITO DE TRANSPARÊNCIA */
+/*     /* EFEITO DE TRANSPARÊNCIA */
     /* background-color: #FAEBD7; */
     background-color: rgba(250, 235, 215, 0.6);
     backdrop-filter: blur(4px);
@@ -35,7 +35,7 @@ main{
     display: flex;
     align-items: center;
     text-align: center;
-    border-radius: 30px;
+    border-radius: 30px; */
 }
 
 .perguntas-da-kafra .kafra{
