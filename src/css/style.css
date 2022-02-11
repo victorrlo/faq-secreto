@@ -13,7 +13,7 @@ main{
     justify-content: center;
     align-items: center;
     min-height: 100%;
-    background-image: url(/src/img/background-kafra3.jpg);
+    background-image: url(src/img/background-kafra3.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
